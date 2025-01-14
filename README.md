@@ -64,6 +64,9 @@ Ramp-up period (second): 10
 - **Error Rate**: Less than 1%.
 - **Peak Throughput**: 81 requests/second.
 - **Breaking Point**: Observed when concurrent users exceeded 2000.
+![image](https://github.com/user-attachments/assets/c6ea9cb4-2d01-45e9-ab47-5a4b6eaaf193)
+![image](https://github.com/user-attachments/assets/6c1127d7-cd88-477e-92dd-c388cbb2df8e)
+
 
 ## Conclusion
 The API performed well under moderate load conditions but experienced increased response times and occasional failures during stress testing. Optimizing database queries and load balancing are recommended for improved scalability.

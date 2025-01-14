@@ -54,21 +54,18 @@ jmeter -n -t /location/test_plan.jmx  -l /location/report/test_plan.jtl
 Terminal must be opened from bin folder.
 
 ## Results and Analysis
-### Key Findings
-- **Average Response Time**: 200 ms.
-- **Error Rate**: Less than 1%.
-- **Peak Throughput**: 500 requests/second.
-- **Breaking Point**: Observed when concurrent users exceeded 300.
+concurrent user: 2000.
 
-### Visualizations
-![Response Time Graph](assets/response_time_graph.png)
-![Throughput Chart](assets/throughput_chart.png)
+loop count: 1
+
+Ramp-up period (second): 10
+### Key Findings
+- **Average Response Time**: 3424 ms.
+- **Error Rate**: Less than 1%.
+- **Peak Throughput**: 81 requests/second.
+- **Breaking Point**: Observed when concurrent users exceeded 2000.
 
 ## Conclusion
 The API performed well under moderate load conditions but experienced increased response times and occasional failures during stress testing. Optimizing database queries and load balancing are recommended for improved scalability.
 
-
-## Acknowledgements and References
-- Apache JMeter Documentation: [https://jmeter.apache.org/](https://jmeter.apache.org/)
-- Online tutorials and resources for performance testing best practices.
 
